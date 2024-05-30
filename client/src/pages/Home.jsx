@@ -55,10 +55,10 @@ export default function Home() {
             place with ease
         </h1>
         <div className='text-gray-400 text-xs sm:text-sm'>
-            Sahand Estate is the best place to find your next perfect place to
-            live.
+            Emir Estate это лучшее место, где можно найти следующее идеальное место для
+            житья.
             <br />
-            We have a wide range of properties for you to choose from.
+            У нас есть широкий выбор недвижимости на ваш выбор.
         </div>
         <Link
             to={'/search'}
@@ -92,8 +92,8 @@ export default function Home() {
         {offerListings && offerListings.length > 0 && (
             <div className=''>
             <div className='my-3'>
-                <h2 className='text-2xl font-semibold text-slate-600'>Recent offers</h2>
-                <Link className='text-sm text-blue-800 hover:underline' to={'/search?offer=true'}>Show more offers</Link>
+                <h2 className='text-2xl font-semibold text-slate-600'>Последние предложения</h2>
+                <Link className='text-sm text-blue-800 hover:underline' to={'/search?offer=true'}>Показать больше предложений</Link>
             </div>
             <div className='flex flex-wrap gap-4'>
                 {offerListings.map((listing) => (
@@ -105,8 +105,8 @@ export default function Home() {
         {rentListings && rentListings.length > 0 && (
             <div className=''>
             <div className='my-3'>
-                <h2 className='text-2xl font-semibold text-slate-600'>Recent places for rent</h2>
-                <Link className='text-sm text-blue-800 hover:underline' to={'/search?type=rent'}>Show more places for rent</Link>
+                <h2 className='text-2xl font-semibold text-slate-600'>Последние места в аренду</h2>
+                <Link className='text-sm text-blue-800 hover:underline' to={'/search?type=rent'}>Показать больше мест в аренду</Link>
             </div>
             <div className='flex flex-wrap gap-4'>
                 {rentListings.map((listing) => (
@@ -118,8 +118,8 @@ export default function Home() {
         {saleListings && saleListings.length > 0 && (
             <div className=''>
             <div className='my-3'>
-                <h2 className='text-2xl font-semibold text-slate-600'>Recent places for sale</h2>
-                <Link className='text-sm text-blue-800 hover:underline' to={'/search?type=sale'}>Show more places for sale</Link>
+                <h2 className='text-2xl font-semibold text-slate-600'>Последние места на продажу</h2>
+                <Link className='text-sm text-blue-800 hover:underline' to={'/search?type=sale'}>Показать больше мест на продажу</Link>
             </div>
             <div className='flex flex-wrap gap-4'>
                 {saleListings.map((listing) => (

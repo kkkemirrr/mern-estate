@@ -154,7 +154,7 @@ export default function Search() {
                 onChange={handleChange}
                 checked={sidebardata.type === 'all'}
                 />
-                <span>Rent & Sale</span>
+                <span>Аренда и продажа</span>
             </div>
             <div className='flex gap-2'>
                 <input
@@ -164,7 +164,7 @@ export default function Search() {
                 onChange={handleChange}
                 checked={sidebardata.type === 'rent'}
                 />
-                <span>Rent</span>
+                <span>Арендовать</span>
             </div>
             <div className='flex gap-2'>
                 <input
@@ -174,7 +174,7 @@ export default function Search() {
                 onChange={handleChange}
                 checked={sidebardata.type === 'sale'}
                 />
-                <span>Sale</span>
+                <span>Продажа</span>
             </div>
             <div className='flex gap-2'>
                 <input
@@ -184,7 +184,7 @@ export default function Search() {
                 onChange={handleChange}
                 checked={sidebardata.offer}
                 />
-                <span>Offer</span>
+                <span>Предложение</span>
             </div>
             </div>
             <div className='flex gap-2 flex-wrap items-center'>
@@ -197,7 +197,7 @@ export default function Search() {
                 onChange={handleChange}
                 checked={sidebardata.parking}
                 />
-                <span>Parking</span>
+                <span>Стоянка</span>
             </div>
             <div className='flex gap-2'>
                 <input
@@ -207,7 +207,7 @@ export default function Search() {
                 onChange={handleChange}
                 checked={sidebardata.furnished}
                 />
-                <span>Furnished</span>
+                <span>Меблированный</span>
             </div>
             </div>
             <div className='flex items-center gap-2'>
@@ -218,10 +218,10 @@ export default function Search() {
                 id='sort_order'
                 className='border rounded-lg p-3'
             >
-                <option value='regularPrice_desc'>Price high to low</option>
-                <option value='regularPrice_asc'>Price low to hight</option>
-                <option value='createdAt_desc'>Latest</option>
-                <option value='createdAt_asc'>Oldest</option>
+                <option value='regularPrice_desc'>Цена от высокой до низкой</option>
+                <option value='regularPrice_asc'>Цена от низкой до высокой</option>
+                <option value='createdAt_desc'>Последниe</option>
+                <option value='createdAt_asc'>Самыe старыe</option>
             </select>
             </div>
             <button className='bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-95'>
@@ -254,7 +254,7 @@ export default function Search() {
                 onClick={onShowMoreClick}
                 className='text-green-700 hover:underline p-7 text-center w-full'
             >
-                Show more
+                Показать больше
             </button>
             )}
         </div>

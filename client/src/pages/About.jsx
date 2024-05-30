@@ -3,21 +3,21 @@ import React from 'react'
 export default function About() {
     return (
     <div className='py-20 px-4 max-w-6xl mx-auto'>
-        <h1 className='text-3xl font-bold mb-4 text-slate-800'>About Emir Estate</h1>
-        <p className='mb-4 text-slate-700'>Sahand Estate is a leading real estate agency
-            that specializes in helping clients buy, sell, and rent properties in the most
-            desirable neighborhoods. Our team of experienced agents is dedicated to providing 
-            exceptional service and making the buying and selling process as smooth as possible.</p>
+        <h1 className='text-3xl font-bold mb-4 text-slate-800'>О Emir Estate</h1>
+        <p className='mb-4 text-slate-700'>Emir Estate – ведущее агентство недвижимости
+            которая специализируется на оказании помощи клиентам в покупке, продаже и аренде недвижимости в самых
+            желательные районы. Наша команда опытных агентов стремится предоставить 
+            исключительный сервис и максимально упрощенный процесс покупки и продажи.</p>
         <p className='mb-4 text-slate-700'>
-        Our mission is to help our clients achieve their real estate goals by providing expert advice,
-        personalized service, and a deep understanding of the local market. Whether you are 
-        looking to buy, sell, or rent a property, we are here to help you every step of the way.
+        Наша миссия — помочь нашим клиентам достичь своих целей в сфере недвижимости, предоставляя экспертные консультации,
+        индивидуальное обслуживание и глубокое понимание местного рынка. Будь ты 
+        Если вы хотите купить, продать или арендовать недвижимость, мы здесь, чтобы помочь вам на каждом этапе пути.
         </p>
-        <p className='mb-4 text-slate-700'>Our team of agents has a wealth of experience
-        and knowledge in the real estate industry, and we are committed to providing the highest 
-        level of service to our clients. We believe that buying or selling a property should be 
-        an exciting and rewarding experience, and we are dedicated to making that a reality for
-        each and every one of our clients.</p>
+        <p className='mb-4 text-slate-700'>Наша команда агентов имеет богатый опыт
+        и знаний в сфере недвижимости, и мы стремимся предоставить самый высокий 
+        уровень обслуживания наших клиентов. Мы считаем, что покупка или продажа недвижимости должна быть 
+        захватывающий и полезный опыт, и мы стремимся сделать его реальностью для
+        каждый из наших клиентов.</p>
     </div>
     )
 }
